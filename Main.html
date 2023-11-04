@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    
+
+    <div class="section">
+        <div class="container">
+            <form action="" method="get" autocomplete="on">
+                <div class="header">
+                    register account
+                </div>
+
+                <div class="formsection">
+                        <div class="group">
+                            <input type="text" id="username" required>
+                            <div class="bar"></div>
+                            <label for="username">user name</label>
+                        </div>
+                        <div class="group">
+                            <input type="text" id="email" required>
+                            <div class="bar"></div>
+                            <label for="email">email</label>
+                        </div>
+                <div class="flex">
+                        <div class="group half">
+                            <input type="password" id="password" required>
+                            <div class="bar"></div>
+                            <label for="password">password</label>
+                        </div>
+                        <div class="group half">
+                            <input type="password" id="conpassword" required>
+                            <div class="bar"></div>
+                            <label for="conpassword">confirm password</label>
+                        </div>
+                </div>
+                <div class="flex">
+                        <div class="group half">
+                            <input type="text" id="phone" required>
+                            <div class="bar"></div>
+                            <label for="phone">phone number</label>
+                        </div>
+                    <div class="group half">
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="notknown">Prefer not to say</option>
+                        </select>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                        <div class="group last">
+                            <input class="birth" type="date" id="birth" required placeholder="MM/DD/YYYY">
+                            <div class="bar"></div>
+                            <label for="birth">birth date</label>
+                        </div>
+                        <div class="rules">
+                            <input type="checkbox" id="rules" required>
+                            <label for="rules">I agree to the <span><a href="#">Terms of Service and Privacy policy</a></span></label>
+                        </div>
+                    <button type="submit" class="specialbtn"><span>Create account</span></button>
+                        <div class="copyrights">
+                            <p>Powered By <span>&copy;Aspect</span></p>
+                        </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
